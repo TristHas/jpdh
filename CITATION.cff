@@ -1,0 +1,53 @@
+cff-version: 1.2.0
+title: "jpdh: Code and instructions for the paper Leveraging Japan's streamflow records for end-to-end learning of hydrological simulations at national scale"
+message: "If you use this software, the D3P-JP dataset or the D3P-JP-Q simulation, please cite the paper below."
+type: software
+authors:
+  - family-names: Hascoet
+    given-names: Tristan
+license: MIT
+repository-code: "https://github.com/TristHas/jpdh"
+doi: 10.5281/zenodo.24238059
+version: 1.0.0
+preferred-citation:
+  type: article
+  title: "Leveraging Japan's streamflow records for end-to-end learning of hydrological simulations at national scale"
+  authors:
+    - family-names: Hascoet
+      given-names: Tristan
+    - family-names: Pellet
+      given-names: Victor
+    - family-names: Oishi
+      given-names: Satoru
+    - family-names: Miyoshi
+      given-names: Takemasa
+  year: 2026
+references:
+  - type: dataset
+    title: "D3P-JP: Dataset for Distributed Discharge Prediction over Japan"
+    authors:
+      - family-names: Hascoet
+        given-names: Tristan
+      - family-names: Pellet
+        given-names: Victor
+      - family-names: Oishi
+        given-names: Satoru
+      - family-names: Miyoshi
+        given-names: Takemasa
+    doi: 10.5281/zenodo.24212554
+    version: "1.0"
+    year: 2026
+  - type: dataset
+    title: "D3P-JP-Q: Spatially distributed daily river discharge simulation over Japan"
+    authors:
+      - family-names: Hascoet
+        given-names: Tristan
+      - family-names: Pellet
+        given-names: Victor
+      - family-names: Oishi
+        given-names: Satoru
+      - family-names: Miyoshi
+        given-names: Takemasa
+    doi: 10.5281/zenodo.24212556
+    version: "1.0"
+    year: 2026

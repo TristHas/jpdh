@@ -1,0 +1,20 @@
+# Install PyTorch for your CUDA driver first (https://pytorch.org), e.g.
+#   pip install torch --index-url https://download.pytorch.org/whl/cu128
+# then
+#   pip install -r requirements.txt
+# There is nothing else to install: the code in src/ is put on the path by every entry point.
+numpy>=2.0
+pandas>=2.2
+torch>=2.4
+xarray>=2025.1
+zarr>=3.0
+numcodecs>=0.15
+networkx>=3.3
+geopandas>=1.0
+pyarrow>=17.0
+tqdm>=4.66
+# Routing and data-tensor libraries, pinned to the versions used for the paper.
+# (The distribution name of xtensor is xtensor-datatensor; its import name is xtensor.)
+xtensor-datatensor @ git+https://github.com/TristHas/xtensor@v1.1-jpdh
+diffroute @ git+https://github.com/TristHas/DiffRoute@v1.1-jpdh
+diffhydro @ git+https://github.com/TristHas/DiffHydro@v1.1-jpdh
